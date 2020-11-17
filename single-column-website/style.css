@@ -1,0 +1,41 @@
+* {
+    text-align: center;
+}
+
+nav {
+    justify-content: flex-end;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0a1f63;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ 
+  
+.about-me{
+    border-radius: 50%;
+    
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container img {
+    width: calc(100% - (20px * 2));
+    margin: 20px;
+  }
